@@ -11,7 +11,7 @@ class CriticPoint:
 
     def show_props(self):
         print(f'Critic point')
-        print(self.eigen)
+        print(f'valores propios: {self.eigen}')
         print(self.type)
         print(self.stability)
 
